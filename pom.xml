@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>module1</module>
+        <module>01_pojo</module>
     </modules>
 
     <dependencies>
@@ -21,8 +21,12 @@
         </dependency>
     </dependencies>
 
+
+
     <properties>
         <revision>1.0-SNAPSHOT</revision>
         <junit-jupiter-api.version>5.10.0</junit-jupiter-api.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 </project>

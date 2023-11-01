@@ -11,10 +11,16 @@ class BossTest {
         Boss boss = new Boss("Sephiroth", 27);
         assertEquals("Sephiroth", boss.getName());
         assertEquals(27, boss.getAge());
+
+        Boss peppa = new Boss();
+        boss.setAge(3);
+        boss.setName("Peppa");
+        assertEquals(3, peppa.getAge());
+        assertEquals("Peppa", peppa.getName());
     }
 
     @Test
-    void isAdultInFrance_WITH_value_10_EXPECTED_FALSE() {
+    void isAdultInFrance_WITH_value_27_EXPECTED_TRUE() {
         Boss boss = new Boss("Sephiroth", 27);
         assertTrue(boss.isAdultInFrance());
     }
