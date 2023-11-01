@@ -13,7 +13,8 @@ I want anyone to be able to go in a Java project quickly, this is the aim of thi
 
 # Prerequisites
 
-You must have installed [maven](https://maven.apache.org/download.cgi) and be able to execute it in this project.
+- You must have installed [maven](https://maven.apache.org/download.cgi) and be able to execute it in this project. Please learn a little maven.
+- You also need java 21.
 
 # How to test your solution
 Go a module, for example [01_pojo](01_pojo) then run
