@@ -65,3 +65,7 @@ will include the previous ones.
 ## 01 pojo
 
 Learn to create a plain old java object, this is the very basis ! Go to [01_pojo](01_pojo).
+
+## 02 equals hashcode toString
+
+Learn to create the winning Tuple3 for a good java bean ! Go to [02_equals_hashcode_tostring](02_equals_hashcode_tostring)
