@@ -11,6 +11,7 @@
     <modules>
         <module>01_pojo</module>
         <module>02_equals_hashcode_tostring</module>
+        <module>03_interface</module>
     </modules>
 
     <dependencies>
@@ -19,6 +20,12 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit-jupiter-api.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>${reflections.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -44,5 +51,6 @@
         <maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
+        <reflections.version>0.10.2</reflections.version>
     </properties>
 </project>
