@@ -8,7 +8,7 @@ that you can use it without having implementing existing implementation.
 
 # Steps
 
-Write your solution in [src/main/java/com/qmt/tutorial/pojo](src/main/java/com/qmt/tutorial/fighter) then run
+Write your solution in [src/main/java/com/qmt/tutorial/fighter](src/main/java/com/qmt/tutorial/fighter) then run
 "mvn clean install"
 
 Karateka and Swordman must be able to fight and their attack are "random" and depending on their strength. 

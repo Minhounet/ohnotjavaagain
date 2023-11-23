@@ -12,6 +12,7 @@
         <module>01_pojo</module>
         <module>02_equals_hashcode_tostring</module>
         <module>03_interface</module>
+        <module>04_lombok</module>
     </modules>
 
     <dependencies>
@@ -25,7 +26,12 @@
             <artifactId>reflections</artifactId>
             <version>${reflections.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -52,5 +58,6 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <reflections.version>0.10.2</reflections.version>
+        <lombok.version>1.18.30</lombok.version>
     </properties>
 </project>
