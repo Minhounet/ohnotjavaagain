@@ -7,9 +7,18 @@ I want anyone to be able to go in a Java project quickly, this is the aim of thi
 # Summary
 
 - [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Install JDK](#install-jdk)
+  - [Install Maven](#install-maven)
+    - [Unpack Maven Archive](#unpack-maven-archive)
+    - [Configure Maven with java](#configure-maven-with-java)
 - [How to test your solution](#how-to-test-your-solution)
+- [How to follow this project and work on the exercices](#how-to-follow-this-project-and-work-on-the-exercices)
 - [Modules](#modules)
-  - [01 pojo](#01-pojo) 
+  - [01 pojo](#01-pojo)
+  - [02 equals hashcode toString](#02-equals-hashcode-tostring)
+  - [03 interface](#03-interface)
+- [Contributing](#contributing)
 
 # Prerequisites
 
@@ -60,6 +69,17 @@ If you pass the unit tests, it means that your solution is correct (not necessar
 Solution is laying in tags: `git checkout solution/01_pojo` will show you the solution for [01_pojo](01_pojo). Next solution
 will include the previous ones.
 
+# How to follow this project and work on the exercices
+
+Just make a regular pull to get all new modules. I suggest to create your own branch to add your solutions.
+```bash
+git checkout -b yourBranch main
+```
+To keep your branch up to date with the new modules you can perform the following command:
+```bash
+git rebase main yourBranch
+```
+
 # Modules
 
 ## 01 pojo
@@ -73,17 +93,6 @@ Learn to create the winning Tuple3 for a good java bean ! Go to [02_equals_hashc
 ## 03 interface
 
 Understand the interface concept in a street fight theme ! Go to [03 interface](03_interface)
-
-# How to follow this project and work on the exercices
-
-Just make a regular pull to get all new modules. I suggest to create your own branch to add your solutions.
-```bash
-git checkout -b yourBranch main
-```
-To keep your branch up to date with the new modules you can perform the following command:
-```bash
-git rebase main yourBranch
-```
 
 # Contributing
 
