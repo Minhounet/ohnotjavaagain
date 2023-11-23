@@ -73,3 +73,30 @@ Learn to create the winning Tuple3 for a good java bean ! Go to [02_equals_hashc
 ## 03 interface
 
 Understand the interface concept in a street fight theme ! Go to [03 interface](03_interface)
+
+# How to follow this project and work on the exercices
+
+Just make a regular pull to get all new modules. I suggest to create your own branch to add your solutions.
+```bash
+git checkout -b yourBranch main
+```
+To keep your branch up to date with the new modules you can perform the following command:
+```bash
+git rebase main yourBranch
+```
+
+# Contributing
+
+This project is very new, but I accept anybody to help me.
+
+## Maintaining solutions branch up to date with all tags
+
+Each commit from the **solutions** branch must match to the whole solution for module, moreover each commit from this
+branch is also tagged like **solutions/<module name>**.
+
+To keep the branch up to date, we need to rebase it on top of main branch moving all tags. For this purpose you can use
+[rebase_solutions_with_tags.sh](internal/rebase_solutions_with_tags.sh) if you are working with **git bash**.
+
+## Authors
+
+Quang-Minh TRAN
