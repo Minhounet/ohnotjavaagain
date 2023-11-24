@@ -13,8 +13,8 @@ class BossTest {
         assertEquals(27, boss.getAge());
 
         Boss peppa = new Boss();
-        boss.setAge(3);
-        boss.setName("Peppa");
+        peppa.setAge(3);
+        peppa.setName("Peppa");
         assertEquals(3, peppa.getAge());
         assertEquals("Peppa", peppa.getName());
     }
