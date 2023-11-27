@@ -96,11 +96,7 @@ Understand the interface concept in a street fight theme ! Go to [03 interface](
 
 ## 04 Lombok
 
-(Lombok)[https://projectlombok.org] project is a very cool project which make Java less verbose. If you remember the [pojo](01_pojo)
-you can think that this is a lot of code for nothing very interesting. Maybe you also remember suffering when implementing
-[equals hashchode and toString](02_equals_hashcode_tostring).
-
-This is when Lombok can save you, it reduces a lot of boilerplate code with annotation ! Go to [04_lombok](04_lombok).
+Avoid boilerplate code with (Lombok)[https://projectlombok.org]! Go to [04_lombok](04_lombok).
 
 # Contributing
 
