@@ -12,5 +12,7 @@ class LambdaTests {
         assertEquals(1, LambdadaOfBrazil.countVowels("cerfs"));
         assertEquals(3, LambdadaOfBrazil.countVowels("yala"));
         assertEquals(3, LambdadaOfBrazil.countVowelsWithoutLambdaKnowledge("yala",new CountVowelsFunction()));
+        assertEquals(4, LambdadaOfBrazil.countVowelsWithoutLambdaKnowledge("YalOu",new CountVowelsFunction()));
+        assertEquals(4, LambdadaOfBrazil.countVowelsWithoutLambdaKnowledge("YalOu",new CountVowelsFunction()));
     }
 }
