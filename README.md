@@ -98,6 +98,10 @@ Understand the interface concept in a street fight theme ! Go to [03 interface](
 
 Avoid boilerplate code with (Lombok)[https://projectlombok.org]! Go to [04_lombok](04_lombok).
 
+## 05 lambda
+
+The Lambdas are the main new thing from Java 8 ! Go to [05 lambda](05_lambda).
+
 # Contributing
 
 This project is very new, but I accept anybody to help me.

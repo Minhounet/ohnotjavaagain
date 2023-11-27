@@ -13,6 +13,7 @@
         <module>02_equals_hashcode_tostring</module>
         <module>03_interface</module>
         <module>04_lombok</module>
+        <module>05_lambda</module>
     </modules>
 
     <dependencies>
