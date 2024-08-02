@@ -18,6 +18,8 @@ I want anyone to be able to go in a Java project quickly, this is the aim of thi
   - [01 pojo](#01-pojo)
   - [02 equals hashcode toString](#02-equals-hashcode-tostring)
   - [03 interface](#03-interface)
+  - [04 Lombok](#04-lombok)
+  - [05 lambdas](#05-lambda)
 - [Contributing](#contributing)
 
 # Prerequisites
